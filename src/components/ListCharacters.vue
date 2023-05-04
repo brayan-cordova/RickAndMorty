@@ -26,12 +26,17 @@ export default{
             store.dispatch('getCharacters')
         })
         return{
-            characters 
+            characters
         }
     }
 }
 </script>
 
-<style>
-
+<style lang="scss">
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin: 3rem 0;
+}
 </style>
