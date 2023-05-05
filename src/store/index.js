@@ -32,6 +32,7 @@ export default createStore({
         console.error(error)
       }
     },
+    // filter by status
     filterByStatus({
       commit,
       state
@@ -41,6 +42,7 @@ export default createStore({
       })
       commit('setCharactersFilter', filter)
     },
+    // filter by name
     filterByName({
       commit,
       state
