@@ -31,6 +31,28 @@ export default createStore({
       } catch (error) {
         console.error(error)
       }
+    },
+    filterByStatus({
+      commit,
+      state
+    }, status) {
+      const filter = state.characters.filter((character) => {
+        return character.status.includes(status)
+      })
+      commit('setCharactersFilter', filter)
+    },
+    filterByName({
+      commit,
+      state
+    }, name) {
+      const formatName = name.toLowerCase()
+      const filter = state.characters.filter((character) => {
+        const characterName = character.name.toLowerCase()
+        if (characterName.includes(formatName)) {
+          return character
+        }
+      })
+      commit('setCharactersFilter', filter)
     }
   },
   modules: {}
