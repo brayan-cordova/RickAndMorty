@@ -9,7 +9,7 @@
   "dependencies": {
     "14": "^3.1.6",
     "core-js": "^3.6.5",
-    "node": "^20.1.0",
+    "node": "^14.21.3",
     "vue": "^3.0.0",
     "vue-cli": "^2.9.6",
     "vuex": "^4.0.0-0",
@@ -20,7 +20,7 @@
     "@vue/cli-plugin-vuex": "~4.5.13",
     "@vue/cli-service": "~4.5.13",
     "@vue/compiler-sfc": "^3.0.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2"
   }
 }
