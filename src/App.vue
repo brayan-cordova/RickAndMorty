@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Rick And Morty API</h1>
-    <h2><center>Brayan Cordova - Web Developer</center></h2>
+    <h2><center>Brayan Cordova - Full Stack Web Developer</center></h2>
     <br>
     <FilterByStatus />
     <FilterByName />
