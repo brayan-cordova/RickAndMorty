@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Rick And Morty</h1>
+    <h1>Rick And Morty API</h1>
     <FilterByStatus />
     <FilterByName />
     <ListCharacters />
